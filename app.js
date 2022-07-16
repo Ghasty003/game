@@ -93,7 +93,7 @@ function myGame(){
 
    x++;
 
-   if ( x > 1000 && score >= 20 ) {
+   if ( x > 1000 && score >= 10 ) {
 
       canvas.style.display =  'none'
 
@@ -108,6 +108,8 @@ function myGame(){
       p.style.display = 'none'
 
       x = 0;
+
+      context.clearRect(0, 0, 1000, 400);
 
       clearInterval(t);
    }
@@ -162,6 +164,10 @@ function myGame(){
       start.style.display = 'none';
 
       final.style.display = 'none';
+
+      context.clearRect(0, 0, 1000, 400);
+
+      clearInterval(t);
    }  
 
    else if ( firstRecty > 400 ){
@@ -196,6 +202,10 @@ function myGame(){
       start.style.display = 'none';
 
       final.style.display = 'none';
+
+      context.clearRect(0, 0, 1000, 400);
+
+      clearInterval(t);
    }
 
    //obstacles 3 (moving rectangle one)
@@ -225,6 +235,10 @@ function myGame(){
       start.style.display = 'none';
 
       final.style.display = 'none';
+
+      context.clearRect(0, 0, 1000, 400);
+
+      clearInterval(t);
    }
 
    else if ( cirlex < -850 ){
@@ -261,6 +275,10 @@ function myGame(){
       start.style.display = 'none';
 
       final.style.display = 'none';
+
+      context.clearRect(0, 0, 1000, 400);
+
+      clearInterval(t);
    }
 
 
@@ -289,6 +307,10 @@ function myGame(){
       start.style.display = 'none';
 
       final.style.display = 'none'
+
+      context.clearRect(0, 0, 1000, 400);
+
+      clearInterval(t);
    }
 
    //Obstacle 6
@@ -316,6 +338,10 @@ function myGame(){
       start.style.display = 'none';
 
       final.style.display = 'none';
+
+      context.clearRect(0, 0, 1000, 400);
+
+      clearInterval(t);
    }
 
 
