@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Truculenta">
+    <title>Game</title>
+    <script src="https://kit.fontawesome.com/005cc1331a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 data-aos="fade-up" data-aos-duration="2000"> A Simple Web Game. </h1>
+
+        <h3 data-aos="fade-down" data-aos-duration="2000"> How to play / How does it works? </h3>
+
+        <div class="child">
+
+            <p data-aos="zoom-in" data-aos-duration="2000">The yellow elements are coins.
+                You have to collect 20 of it so as to win the game. 
+            </p>
+
+            <p data-aos="zoom-in" data-aos-duration="2000"> After collection of the 20 coins, you pass through the <strong><i>exit</i></strong> page, then you've completed the task.
+                Otherwise, if you pass through the <strong><i>exit</i></strong>, you'll be directed back to the begining page.
+            </p>
+
+            <p data-aos="zoom-in" data-aos-duration="2000">Also, the green elements are obstacles. If you hit them, <strong><i>Game Over</i></strong></p>
+        </div>
+
+    </div>
+
+    <div class="cover-div" >
+
+        <button id="cover">Start</button>
+
+        <div class="append" data-aos="zoom-in" data-aos-duration="2000"></div>
+
+    </div>
+
+    <div class="show">
+
+        <h2 data-aos="zoom-in" data-aos-duration="2000"> Do you wish to restart? </h2>
+
+        <div>
+
+            <button class="yes">Yes</button>
+
+            <button class="no">No</button>
+
+        </div>
+
+    </div>
+
+    <canvas id="canvas" width="1000" height="400">Your browser does not support this game.</canvas>
+
+
+    <div class="btn-container">
+
+        <div class="btns">
+
+            <button id="up"><i class="fa fa-angle-up"></i></button>
+           
+            <div>
+                <button id="left"><i class="fa fa-angle-left"></i></button>
+                <button id="right"><i class="fa fa-angle-right"></i></button>
+            </div>
+            
+            <button id="down"><i class="fa fa-angle-down"></i></button>
+    
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div>
+
+            <p>&copy;Ghasty, 2022. All rights reserved.</p>
+
+            <p>Powered with &#128150; by <a href="https://ghasty003.github.io/myPortfolio">Ghasty</a></p>
+
+        </div>
+
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

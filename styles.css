@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Truculenta';
+}
+
+body{
+    background-color: crimson;
+}
+
+#canvas{
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px;
+}
+
+.container h3{
+    margin-top: 40px;
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.child p{
+    width: 200px;
+    background-color: chocolate;
+    margin: 50px;
+    padding: 30px;
+}
+
+.cover-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#cover{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #dd5e89;
+    background-color: rgb(181, 136, 226);
+}
+
+#cover:hover{
+    background-color: #dd5e89;
+}
+
+#cover:active{
+    box-shadow: 0 3px;
+    transform: translateY(4px);
+}
+
+.btn-container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+   width: 50%;
+   position: sticky;
+   left: 0px;
+}
+
+.btns button{
+    padding: 10px;
+    margin: 10px;
+}
+
+.append{
+    padding: 20px;
+    color: darkslateblue;
+    font-size: 30px;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    display: none;
+}
+
+.show div{
+    padding: 30px;
+}
+
+.show div button{
+    margin: 8px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 2px #dd5e89;
+    background-color: rgb(181, 136, 226);
+}
+
+.show div button:hover{
+    background-color: #dd5e89;
+}
+
+.show div button:active{
+    box-shadow: 0 3px;
+    transform: translateY(4px);
+}
+
+@media screen and (max-width:900px) {
+    #canvas{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .btns button{
+        margin: 5px;
+    }
+}
+
+footer{
+    background-color: rgb(248, 77, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-top: 100px;
+}
+
+footer div p{
+    padding: 40px;
+    font-size: 20px;
+}
+
+footer div p a{
+    color: rgb(132, 5, 30);
+}
