@@ -519,19 +519,19 @@ function controller(){
    let down = document.getElementById('down');
 
    down.addEventListener('click', () => {
-      y += 5
+      y += 8;
    });
 
    up.addEventListener('click', () => {
-      y -= 5
+      y -= 8;
    });
 
    right.addEventListener('click', () => {
-      x += 5;
+      x += 8;
    });
 
    left.addEventListener('click', () => {
-      x -= 5;
+      x -= 8;
    })
 }
 
@@ -559,6 +559,8 @@ no.addEventListener('click', () => {
    p.style.display = 'none';
 
    show.style.display = 'none';
+
+   context.clearRect(0, 0, 1000, 400);
 
 });
 
